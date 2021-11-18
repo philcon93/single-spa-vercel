@@ -1,3 +1,3 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return <section style={{ color: 'white' }}>{props.name} is mounted from the main branch!</section>;
 }
